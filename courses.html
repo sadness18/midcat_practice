@@ -1,0 +1,2693 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset = "UTF-8">
+    <link rel = "stylesheet" href = "styles/style.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel = "stylesheet" href = "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap">
+    <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <title>Midcat_practice</title>
+</head>
+
+<body id = "courses_body">
+    <header id = "courses_header">
+        <div id = "header_left_side"> <!-- Левая сторона (название + навигация) -->
+            <div id = "header_left_side_top">
+                <div id = "header_main_link">
+                    <a href = "index.html">МБУ ДО “Центр внешкольной работы”</a>
+                </div>
+            </div>
+            <div id = "header_left_side_bottom">
+                <div id = "header_nav_links">
+                    <div id = "header_nav_links_top">
+                        <a href = "#" class = "underline_link">О нас</a>
+                        <a href = "courses.html" class = "underline_link">Курсы</a>
+                        <a href = "#" class = "underline_link">Семинары</a>
+                        <a href = "#" class = "underline_link">Продукты</a>
+                        <a href = "#" class = "underline_link">Новости</a>
+                        <a href = "#" class = "underline_link">FAQ</a>
+                        <a href = "#" class = "underline_link">Личный кабинет</a>
+                    </div>
+                    <div id = "header_nav_links_bottom">
+                        <a href = "#" class = "underline_link">Календарь</a>
+                        <a href = "#" class = "underline_link">Семинары май 2023</a>
+                        <a href = "#" class = "underline_link">Журнал</a>
+                        <a href = "#" class = "underline_link">Мероприятия</a>
+                        <a href = "#" class = "underline_link">Стать лектором</a>
+                        <a href = "#" class = "underline_link">Мои курсы</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id = "header_mid"> <!-- Цент (строка поиска) -->
+            <form>
+                <input type = "text" placeholder = "Поиск по сайту">
+                <button type = "submit">
+                    <img src = "images/search_brn.png">
+                </button>
+            </form>
+        </div>
+
+        <div id = "header_right_side"> <!-- Правая сторона (выход из акканта + социальные сети) -->
+            <div id = "header_right_side_top">
+                <div id = "header_logout_link">
+                    <a href = "#">Выйти из профиля</a>
+                </div>
+            </div>
+            <div id = "header_right_side_bottom">
+                <a href = "#">
+                    <img src = "images/vk.png">
+                </a>
+                <a href = "#">
+                    <img src = "images/tg.png">
+                </a>
+                <a href = "#">
+                    <img src = "images/yt.png">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main id = "courses_main">
+        <input type = "radio" name = "courses_radio" id = "kodu_radio">
+        <input type = "radio" name = "courses_radio" id = "scratch_radio">
+        <input type = "radio" name = "courses_radio" id = "arduino_radio">
+        <input type = "radio" name = "courses_radio" id = "python_radio">
+        <input type = "radio" name = "courses_radio" id = "html_radio">
+        <input type = "radio" name = "courses_radio" id = "css_radio">
+        <input type = "radio" name = "courses_radio" id = "excel_radio">
+        <input type = "radio" name = "courses_radio" id = "word_radio">
+        <input type = "radio" name = "courses_radio" id = "power_point_radio">
+        <input type = "radio" name = "courses_radio" id = "sketchup_radio">
+        <input type = "radio" name = "courses_radio" id = "blender_radio">
+        <input type = "radio" name = "courses_radio" id = "inkscape_radio">
+        <input type = "radio" name = "courses_radio" id = "gimp_radio">
+        <input type = "radio" name = "courses_radio" id = "figma_radio">
+        <input type = "radio" name = "courses_radio" id = "firebird_radio">
+        <input type = "radio" name = "courses_radio" id = "photoshop_radio">
+        <input type = "radio" name = "courses_radio" id = "paint_radio">
+        <div id = "courses"> <!-- Раздел: Курсы по всем направлениям -->
+            <div class = "title_block">Курсы по всем направлениям</div>
+            <div class = "courses_line">
+                <label for = "kodu_radio">
+                    <div class = "course_btn">Kodu Game Lab</div>
+                </label>
+                <label for = "scratch_radio">
+                    <div class = "course_btn">Scratch</div>
+                </label>
+                <label for = "arduino_radio">
+                    <div class = "course_btn">Arduino</div>
+                </label>
+                <label for = "python_radio">
+                    <div class = "course_btn">Python</div>
+                </label>
+                <label for = "html_radio">
+                    <div class = "course_btn">HTML</div>
+                </label>
+                <label for = "css_radio">
+                    <div class = "course_btn">CSS</div>
+                </label>
+            </div>
+            <div class = "courses_line">
+                <label for = "excel_radio">
+                    <div class = "course_btn">Excel</div>
+                </label>
+                <label for ="word_radio">
+                    <div class = "course_btn">Word</div>
+                </label>
+                <label for = "power_point_radio">
+                    <div class = "course_btn">Power Point</div>
+                </label>
+                <label for = "sketchup_radio">
+                    <div class = "course_btn">SketchUp</div>
+                </label>
+                <label for = "blender_radio">
+                    <div class = "course_btn">Blender</div>
+                </label>
+                <label for = "inkscape_radio">
+                    <div class = "course_btn">InkScape</div>
+                </label>
+            </div>
+            <div class = "courses_line">
+                <label for = "gimp_radio">
+                    <div class = "course_btn">Gimp</div>
+                </label>
+                <label for = "figma_radio">
+                    <div class = "course_btn">Figma</div>
+                </label>
+                <label for = "firebird_radio">
+                    <div class = "course_btn">Мультстудия "Жар-Птица"</div>
+                </label>
+                <label for = "photoshop_radio">
+                    <div class = "course_btn">Photoshop</div>
+                </label>
+                <label for = "paint_radio">
+                    <div class = "course_btn">Paint</div>
+                </label>
+            </div>
+        </div>
+
+        <div class = "course_content" id = "kodu_content">
+            <div class = "course_definition">
+                <b>Kodu Game Lab</b> - это среда разработки 3D-игр, предназначенная для обучения детей базовым принципам программирования. Kodu позволяет создателям создавать ландшафт мира, заселять его персонажами и реквизитом, а затем программировать их поведение и правила игр на специально разработанном языке визуального программирования.
+            </div>
+
+            <div class = "title_block">
+                Чему вы научитесь
+            </div>
+            <div class = "what_you_will_learn">
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 1</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 2</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 3</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 4</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 5</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 6</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+
+            <div class = "title_block">
+                Содержание курса
+            </div>
+            <div class = "course_plan">
+                <div class = "course_plan_topline">
+                    <div class = "course_plan_title">
+                        Вас ждут нескучная теория, отработка знаний на практике и крутые проекты, чтобы даже новичок в Kodu Game Lab мог собрать впечатляющее портфолио
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">10</div>
+                        <div>месяцев<br />обучения</div>
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">82</div>
+                        <div>практические<br />задачи</div>
+                    </div>
+                </div>
+
+                <div class = "course_plan_item course_plan_item_first">
+                    <input type = "checkbox" id = "chb1">
+                    <label for = "chb1">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">1.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb2">
+                    <label for = "chb2">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">2.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb3">
+                    <label for = "chb3">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">3.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb4">
+                    <label for = "chb4">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">4.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb5">
+                    <label for = "chb5">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">5.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+            <div class = "taking">
+                <div class = "taking_btn">Записаться</div>
+            </div>
+        </div>
+
+        <div class = "course_content" id = "scratch_content">
+            <div class = "course_definition">
+                <b>Scratch</b> - визуально-блочная событийно-ориентированная среда программирования, созданная для детей и подростков. Название произошло от слова scratching — техники, используемой хип-хоп-диджеями, которые крутят виниловые пластинки вперед-назад руками для того, чтобы смешивать музыкальные темы.
+            </div>
+
+            <div class = "title_block">
+                Чему вы научитесь
+            </div>
+            <div class = "what_you_will_learn">
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 1</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 2</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 3</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 4</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 5</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 6</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+
+            <div class = "title_block">
+                Содержание курса
+            </div>
+            <div class = "course_plan">
+                <div class = "course_plan_topline">
+                    <div class = "course_plan_title">
+                        Вас ждут нескучная теория, отработка знаний на практике и крутые проекты, чтобы даже новичок в Scratch мог собрать впечатляющее портфолио
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">10</div>
+                        <div>месяцев<br />обучения</div>
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">82</div>
+                        <div>практические<br />задачи</div>
+                    </div>
+                </div>
+
+                <div class = "course_plan_item course_plan_item_first">
+                    <input type = "checkbox" id = "chb6">
+                    <label for = "chb6">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">1.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb7">
+                    <label for = "chb7">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">2.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb8">
+                    <label for = "chb8">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">3.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb9">
+                    <label for = "chb9">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">4.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb10">
+                    <label for = "chb10">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">5.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+            <div class = "taking">
+                <div class = "taking_btn">Записаться</div>
+            </div>
+        </div>
+
+        <div class = "course_content" id = "arduino_content">
+            <div class = "course_definition">
+                <b>Arduino</b> - торговая марка аппаратно-программных средств построения и прототипирования простых систем, моделей и экспериментов в области электроники, автоматики, автоматизации процессов и робототехники.
+            </div>
+
+            <div class = "title_block">
+                Чему вы научитесь
+            </div>
+            <div class = "what_you_will_learn">
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 1</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 2</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 3</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 4</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 5</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 6</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+
+            <div class = "title_block">
+                Содержание курса
+            </div>
+            <div class = "course_plan">
+                <div class = "course_plan_topline">
+                    <div class = "course_plan_title">
+                        Вас ждут нескучная теория, отработка знаний на практике и крутые проекты, чтобы даже новичок в Arduino мог собрать впечатляющее портфолио
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">10</div>
+                        <div>месяцев<br />обучения</div>
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">82</div>
+                        <div>практические<br />задачи</div>
+                    </div>
+                </div>
+
+                <div class = "course_plan_item course_plan_item_first">
+                    <input type = "checkbox" id = "chb11">
+                    <label for = "chb11">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">1.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb12">
+                    <label for = "chb12">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">2.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb13">
+                    <label for = "chb13">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">3.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb14">
+                    <label for = "chb14">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">4.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb15">
+                    <label for = "chb15">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">5.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+            <div class = "taking">
+                <div class = "taking_btn">Записаться</div>
+            </div>
+        </div>
+
+        <div class = "course_content" id = "python_content">
+            <div class = "course_definition">
+                <b>Python</b> - высокоуровневый язык программирования общего назначения с динамической строгой типизацией и автоматическим управлением памятью, ориентированный на повышение производительности разработчика, читаемости кода и его качества, а также на обеспечение переносимости написанных на нём программ.
+            </div>
+
+            <div class = "title_block">
+                Чему вы научитесь
+            </div>
+            <div class = "what_you_will_learn">
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 1</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 2</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 3</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 4</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 5</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 6</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+
+            <div class = "title_block">
+                Содержание курса
+            </div>
+            <div class = "course_plan">
+                <div class = "course_plan_topline">
+                    <div class = "course_plan_title">
+                        Вас ждут нескучная теория, отработка знаний на практике и крутые проекты, чтобы даже новичок в Python мог собрать впечатляющее портфолио
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">10</div>
+                        <div>месяцев<br />обучения</div>
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">82</div>
+                        <div>практические<br />задачи</div>
+                    </div>
+                </div>
+
+                <div class = "course_plan_item course_plan_item_first">
+                    <input type = "checkbox" id = "chb16">
+                    <label for = "chb16">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">1.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb17">
+                    <label for = "chb17">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">2.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb18">
+                    <label for = "chb18">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">3.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb19">
+                    <label for = "chb19">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">4.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb20">
+                    <label for = "chb20">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">5.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+            <div class = "taking">
+                <div class = "taking_btn">Записаться</div>
+            </div>
+        </div>
+
+        <div class = "course_content" id = "html_content">
+            <div class = "course_definition">
+                <b>HTML</b> - стандартизированный язык гипертекстовой разметки документов для просмотра веб-страниц в браузере. Веб-браузеры получают HTML документ от сервера по протоколам HTTP/HTTPS или открывают с локального диска, далее интерпретируют код в интерфейс, который будет отображаться на экране монитора.
+            </div>
+
+            <div class = "title_block">
+                Чему вы научитесь
+            </div>
+            <div class = "what_you_will_learn">
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 1</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 2</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 3</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 4</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 5</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 6</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+
+            <div class = "title_block">
+                Содержание курса
+            </div>
+            <div class = "course_plan">
+                <div class = "course_plan_topline">
+                    <div class = "course_plan_title">
+                        Вас ждут нескучная теория, отработка знаний на практике и крутые проекты, чтобы даже новичок в HTML мог собрать впечатляющее портфолио
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">10</div>
+                        <div>месяцев<br />обучения</div>
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">82</div>
+                        <div>практические<br />задачи</div>
+                    </div>
+                </div>
+
+                <div class = "course_plan_item course_plan_item_first">
+                    <input type = "checkbox" id = "chb21">
+                    <label for = "chb21">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">1.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb22">
+                    <label for = "chb22">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">2.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb23">
+                    <label for = "chb23">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">3.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb24">
+                    <label for = "chb24">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">4.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb25">
+                    <label for = "chb25">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">5.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+            <div class = "taking">
+                <div class = "taking_btn">Записаться</div>
+            </div>
+        </div>
+
+        <div class = "course_content" id = "css_content">
+            <div class = "course_definition">
+                <b>CSS</b> - формальный язык декорирования и описания внешнего вида документа (веб-страницы), написанного с использованием языка разметки (чаще всего HTML или XHTML). Также может применяться к любым XML-документам, например, к SVG или XUL.
+            </div>
+
+            <div class = "title_block">
+                Чему вы научитесь
+            </div>
+            <div class = "what_you_will_learn">
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 1</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 2</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 3</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 4</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 5</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 6</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+
+            <div class = "title_block">
+                Содержание курса
+            </div>
+            <div class = "course_plan">
+                <div class = "course_plan_topline">
+                    <div class = "course_plan_title">
+                        Вас ждут нескучная теория, отработка знаний на практике и крутые проекты, чтобы даже новичок в CSS мог собрать впечатляющее портфолио
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">10</div>
+                        <div>месяцев<br />обучения</div>
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">82</div>
+                        <div>практические<br />задачи</div>
+                    </div>
+                </div>
+
+                <div class = "course_plan_item course_plan_item_first">
+                    <input type = "checkbox" id = "chb26">
+                    <label for = "chb26">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">1.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb27">
+                    <label for = "chb27">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">2.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb28">
+                    <label for = "chb28">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">3.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb29">
+                    <label for = "chb29">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">4.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb30">
+                    <label for = "chb30">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">5.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+            <div class = "taking">
+                <div class = "taking_btn">Записаться</div>
+            </div>
+        </div>
+
+        <div class = "course_content" id = "excel_content">
+            <div class = "course_definition">
+                <b>Microsoft Excel</b> - программа для работы с электронными таблицами, созданная корпорацией Microsoft для Microsoft Windows, Windows NT и Mac OS, а также Android, iOS и Windows Phone. Она предоставляет возможности экономико-статистических расчетов, графические инструменты и, за исключением Excel 2008 под Mac OS X, язык макропрограммирования VBA (Visual Basic for Application). Microsoft Excel входит в состав Microsoft Office.
+            </div>
+
+            <div class = "title_block">
+                Чему вы научитесь
+            </div>
+            <div class = "what_you_will_learn">
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 1</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 2</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 3</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 4</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 5</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 6</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+
+            <div class = "title_block">
+                Содержание курса
+            </div>
+            <div class = "course_plan">
+                <div class = "course_plan_topline">
+                    <div class = "course_plan_title">
+                        Вас ждут нескучная теория, отработка знаний на практике и крутые проекты, чтобы даже новичок в Excel мог собрать впечатляющее портфолио
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">10</div>
+                        <div>месяцев<br />обучения</div>
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">82</div>
+                        <div>практические<br />задачи</div>
+                    </div>
+                </div>
+
+                <div class = "course_plan_item course_plan_item_first">
+                    <input type = "checkbox" id = "chb31">
+                    <label for = "chb31">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">1.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb32">
+                    <label for = "chb32">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">2.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb33">
+                    <label for = "chb33">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">3.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb34">
+                    <label for = "chb34">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">4.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb35">
+                    <label for = "chb35">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">5.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+            <div class = "taking">
+                <div class = "taking_btn">Записаться</div>
+            </div>
+        </div>
+
+        <div class = "course_content" id = "word_content">
+            <div class = "course_definition">
+                <b>Microsoft Word</b> - текстовый процессор, предназначенный для создания, просмотра, редактирования и форматирования текстов статей, деловых бумаг, а также иных документов, с локальным применением простейших форм таблично-матричных алгоритмов. Выпускается корпорацией Microsoft в составе пакета Microsoft Office.
+            </div>
+
+            <div class = "title_block">
+                Чему вы научитесь
+            </div>
+            <div class = "what_you_will_learn">
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 1</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 2</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 3</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 4</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 5</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 6</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+
+            <div class = "title_block">
+                Содержание курса
+            </div>
+            <div class = "course_plan">
+                <div class = "course_plan_topline">
+                    <div class = "course_plan_title">
+                        Вас ждут нескучная теория, отработка знаний на практике и крутые проекты, чтобы даже новичок в Word мог собрать впечатляющее портфолио
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">10</div>
+                        <div>месяцев<br />обучения</div>
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">82</div>
+                        <div>практические<br />задачи</div>
+                    </div>
+                </div>
+
+                <div class = "course_plan_item course_plan_item_first">
+                    <input type = "checkbox" id = "chb36">
+                    <label for = "chb36">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">1.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb37">
+                    <label for = "chb37">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">2.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb38">
+                    <label for = "chb38">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">3.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb39">
+                    <label for = "chb39">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">4.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb40">
+                    <label for = "chb40">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">5.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+            <div class = "taking">
+                <div class = "taking_btn">Записаться</div>
+            </div>
+        </div>
+
+        <div class = "course_content" id = "power_point_content">
+            <div class = "course_definition">
+                <b>Microsoft PowerPoint</b> - программа подготовки презентаций и просмотра презентаций, являющаяся частью Microsoft Office и доступная в редакциях для операционных систем Microsoft Windows и macOS, а также для мобильных платформ Android и IOS. Материалы, подготовленные с помощью PowerPoint, предназначены для отображения на большом экране — через проектор, либо телевизионный экран большого размера.
+            </div>
+
+            <div class = "title_block">
+                Чему вы научитесь
+            </div>
+            <div class = "what_you_will_learn">
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 1</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 2</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 3</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 4</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 5</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 6</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+
+            <div class = "title_block">
+                Содержание курса
+            </div>
+            <div class = "course_plan">
+                <div class = "course_plan_topline">
+                    <div class = "course_plan_title">
+                        Вас ждут нескучная теория, отработка знаний на практике и крутые проекты, чтобы даже новичок в PowerPoint мог собрать впечатляющее портфолио
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">10</div>
+                        <div>месяцев<br />обучения</div>
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">82</div>
+                        <div>практические<br />задачи</div>
+                    </div>
+                </div>
+
+                <div class = "course_plan_item course_plan_item_first">
+                    <input type = "checkbox" id = "chb41">
+                    <label for = "chb41">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">1.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb42">
+                    <label for = "chb42">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">2.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb43">
+                    <label for = "chb43">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">3.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb44">
+                    <label for = "chb44">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">4.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb45">
+                    <label for = "chb45">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">5.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+            <div class = "taking">
+                <div class = "taking_btn">Записаться</div>
+            </div>
+        </div>
+
+        <div class = "course_content" id = "sketchup_content">
+            <div class = "course_definition">
+                <b>SketchUp</b> - программа для 3D-дизайна и архитектурного проектирования. В основном используется для моделирования жилых домов, мебели, интерьера. Есть инструменты для проектирования лестниц, электропроводки, санитарно-технических коммуникаций и оборудования. Однако существуют и гораздо более масштабные проекты на её базе. Так например в SketchUp была создана 3D-модель города Красноярска с геодатой.
+            </div>
+
+            <div class = "title_block">
+                Чему вы научитесь
+            </div>
+            <div class = "what_you_will_learn">
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 1</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 2</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 3</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 4</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 5</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 6</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+
+            <div class = "title_block">
+                Содержание курса
+            </div>
+            <div class = "course_plan">
+                <div class = "course_plan_topline">
+                    <div class = "course_plan_title">
+                        Вас ждут нескучная теория, отработка знаний на практике и крутые проекты, чтобы даже новичок в SketchUp мог собрать впечатляющее портфолио
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">10</div>
+                        <div>месяцев<br />обучения</div>
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">82</div>
+                        <div>практические<br />задачи</div>
+                    </div>
+                </div>
+
+                <div class = "course_plan_item course_plan_item_first">
+                    <input type = "checkbox" id = "chb46">
+                    <label for = "chb46">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">1.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb47">
+                    <label for = "chb47">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">2.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb48">
+                    <label for = "chb48">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">3.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb49">
+                    <label for = "chb49">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">4.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb50">
+                    <label for = "chb50">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">5.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+            <div class = "taking">
+                <div class = "taking_btn">Записаться</div>
+            </div>
+        </div>
+
+        <div class = "course_content" id = "blender_content">
+            <div class = "course_definition">
+                <b>Blender</b> - профессиональное свободное и открытое программное обеспечение для создания трёхмерной компьютерной графики, включающее в себя средства моделирования, скульптинга, анимации, симуляции, рендеринга, постобработки и монтажа видео со звуком, компоновки с помощью «узлов» (Node Compositing), а также создания 2D-анимаций. В настоящее время пользуется большой популярностью среди бесплатных 3D-редакторов в связи с его быстрым стабильным развитием и технической поддержкой.
+            </div>
+
+            <div class = "title_block">
+                Чему вы научитесь
+            </div>
+            <div class = "what_you_will_learn">
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Работать в Blender</div>
+                    <div class = "wywl_content">
+                        Научитесь устанавливать дополнения и настраивать программу. Познакомитесь с примитивами и базовыми трансформациями. Сможете уверенно работать в Blender.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Моделировать 3D-объекты</div>
+                    <div class = "wywl_content">
+                        Освоите полигональное и процедурное моделирование. Научитесь делать скульптинг, ретопологию и запекание. Сможете создавать фотореалистичные объекты.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Создавать анимацию и симуляцию</div>
+                    <div class = "wywl_content">
+                        Поймёте принципы создания анимации, научитесь работать с таймлайном и ключами. Сможете делать симуляцию твёрдых тел и тканей.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Работать с текстурами и материалами</div>
+                    <div class = "wywl_content">
+                        Научитесь создавать и обрабатывать текстуры. Узнаете, как делать заготовки для пластика, стекла и металла. Добавите материалы и сложные эффекты в свои проекты.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Выстраивать освещение сцены</div>
+                    <div class = "wywl_content">
+                        Освоите главные принципы освещения. Сможете работать с разными типами светильников. Поймёте, как собрать целостную композицию сцены и задать нужное настроение.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Рендерить проекты</div>
+                    <div class = "wywl_content">
+                        Научитесь визуализировать трёхмерную сцену. Поработаете со сложными эффектами рендера. Сможете делать постобработку и добавлять эффекты в проект.
+                    </div>
+                </div>
+            </div>
+
+            <div class = "title_block">
+                Содержание курса
+            </div>
+            <div class = "course_plan">
+                <div class = "course_plan_topline">
+                    <div class = "course_plan_title">
+                        Вас ждут нескучная теория, отработка знаний на практике и крутые проекты, чтобы даже новичок в Blender мог собрать впечатляющее портфолио
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">10</div>
+                        <div>месяцев<br />обучения</div>
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">82</div>
+                        <div>практические<br />задачи</div>
+                    </div>
+                </div>
+
+                <div class = "course_plan_item course_plan_item_first">
+                    <input type = "checkbox" id = "chb51">
+                    <label for = "chb51">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">1.   Возможности Blender</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Изучите основные этапы работы над проектом. Познакомитесь с примерами применения Blender в фильмах, играх и моушен-дизайне. Узнаете, какие дополнения и другие программы используют в индустрии для создания крутой графики.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb52">
+                    <label for = "chb52">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">2.   Создание композиции из примитивов</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Установите и настроите Blender. Научитесь создавать и трансформировать объекты. Создадите объёмную композицию в пространстве с помощью геометрических примитивов с различными материалами и источниками освещения.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb53">
+                    <label for = "chb53">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">3.   Полигональное моделирование</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Познакомитесь с полигональным моделированием, основными дополнениями и модификаторами для него. Сделаете стилизованный low-poly-интерьер.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb54">
+                    <label for = "chb54">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">4.   Полигональное моделирование под сглаживание</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Изучите модификатор Subdivision surface. Усложните интерьер из предыдущих уроков и смоделируете его под сглаживание. Сделаете детализированную модель швейной машинки.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb55">
+                    <label for = "chb55">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">5.   Процедурное моделирование</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Познакомитесь с принципами процедурного моделирования, изучите модификаторы и системы частиц. Сделаете модель кресла из ротанга.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb56">
+                    <label for = "chb56">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">6.   Скульптинг</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Изучите классический пайплайн моделирования: скульпт, ретопологию, запекание. Познакомитесь с разными типами кистей и их параметрами. Сделаете несложную модель персонажа.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb57">
+                    <label for = "chb57">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">7.   Анимация и симуляция</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Узнаете, что такое keyframe и motion capture. Научитесь создавать симуляцию ткани, динамических частиц, мягких и твёрдых тел. Сделаете сцену с разбросанными предметами в комнате. Добавите в неё ткани и мягкую мебель.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb58">
+                    <label for = "chb58">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">8.   UV-mapping</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Поймёте, как связано UV-пространство модели и её геометрия. Научитесь создавать UV-развёртку объектов. Подготовите развёртку мультипликационного интерьера и персонажа.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb59">
+                    <label for = "chb59">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">9.   Работа с текстурами</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Изучите основы ручного рисования по объектам и UV-развёрткам. Поработаете с текстурами: добавите растровые и процедурные текстуры в сцену с интерьером, сделаете хэндпэйнт текстуры для персонажа.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb60">
+                    <label for = "chb60">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">10.   Работа с материалами</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Научитесь регулировать положение текстуры на объекте, сможете создавать базовые материалы и управлять их свойствами с помощью параметров. Сделаете пластик, дерево, стекло, воду и металл для двух сцен.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb61">
+                    <label for = "chb61">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">11.   Визуализация и освещение</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Познакомитесь с GPU- и CPU-рендерами. Сможете настраивать открытое, закрытое, предметное освещение для разных типов пространств. Соберёте композицию из объектов, которые сделали в предыдущих модулях. Добавите свет.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb62">
+                    <label for = "chb62">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">12.   Визуализация в Octane Render</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Загрузите и установите Octane. Научитесь настраивать освещение и материалы для этого рендера.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb63">
+                    <label for = "chb63">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">13.   Усложнённые симуляции</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Узнаете общие принципы симуляции флюидов. Научитесь создавать дым и огонь. Поймёте, как делать жидкости и работать с эффекторами. Добавите материалы в свою сцену.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb65">
+                    <label for = "chb65">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">14.   Композитинг в Blender</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Познакомитесь со сложными эффектами. Отрендерите свою сцену по слоям с несколькими пассами, соберёте её в композиторе и сделаете постобработку.
+                    </div>
+                </div>
+            </div>
+            <div class = "taking">
+                <div class = "taking_btn">Записаться</div>
+            </div>
+        </div>
+
+        <div class = "course_content" id = "inkscape_content">
+            <div class = "course_definition">
+                <b>Inkscape</b> - свободно распространяемый векторный графический редактор, удобен для создания как художественных, так и технических иллюстраций (вплоть до использования в качестве САПР общего назначения, чему также способствует лёгкость обмена чертежами). Это стало возможным во многом благодаря открытому формату SVG, развиваемому консорциумом W3C. Формат SVG позволяет создавать иллюстрации различного типа, в том числе анимированные.
+            </div>
+
+            <div class = "title_block">
+                Чему вы научитесь
+            </div>
+            <div class = "what_you_will_learn">
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 1</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 2</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 3</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 4</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 5</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 6</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+
+            <div class = "title_block">
+                Содержание курса
+            </div>
+            <div class = "course_plan">
+                <div class = "course_plan_topline">
+                    <div class = "course_plan_title">
+                        Вас ждут нескучная теория, отработка знаний на практике и крутые проекты, чтобы даже новичок в Inkscape мог собрать впечатляющее портфолио
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">10</div>
+                        <div>месяцев<br />обучения</div>
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">82</div>
+                        <div>практические<br />задачи</div>
+                    </div>
+                </div>
+
+                <div class = "course_plan_item course_plan_item_first">
+                    <input type = "checkbox" id = "chb66">
+                    <label for = "chb66">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">1.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb67">
+                    <label for = "chb67">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">2.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb68">
+                    <label for = "chb68">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">3.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb69">
+                    <label for = "chb69">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">4.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb70">
+                    <label for = "chb70">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">5.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+            <div class = "taking">
+                <div class = "taking_btn">Записаться</div>
+            </div>
+        </div>
+
+        <div class = "course_content" id = "gimp_content">
+            <div class = "course_definition">
+                <b>GNU Image Manipulation Program</b> или <b>GIMP</b> - это среда разработки 3D-игр, предназначенная для обучения детей базовым принципам программирования. Kodu позволяет создателям создавать ландшафт мира, заселять его персонажами и реквизитом, а затем программировать их поведение и правила игр на специально разработанном языке визуального программирования.
+            </div>
+
+            <div class = "title_block">
+                Чему вы научитесь
+            </div>
+            <div class = "what_you_will_learn">
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 1</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 2</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 3</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 4</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 5</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 6</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+
+            <div class = "title_block">
+                Содержание курса
+            </div>
+            <div class = "course_plan">
+                <div class = "course_plan_topline">
+                    <div class = "course_plan_title">
+                        Вас ждут нескучная теория, отработка знаний на практике и крутые проекты, чтобы даже новичок в GIMP мог собрать впечатляющее портфолио
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">10</div>
+                        <div>месяцев<br />обучения</div>
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">82</div>
+                        <div>практические<br />задачи</div>
+                    </div>
+                </div>
+
+                <div class = "course_plan_item course_plan_item_first">
+                    <input type = "checkbox" id = "chb71">
+                    <label for = "chb71">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">1.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb72">
+                    <label for = "chb72">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">2.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb73">
+                    <label for = "chb73">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">3.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb74">
+                    <label for = "chb74">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">4.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb75">
+                    <label for = "chb75">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">5.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+            <div class = "taking">
+                <div class = "taking_btn">Записаться</div>
+            </div>
+        </div>
+
+        <div class = "course_content" id = "figma_content">
+            <div class = "course_definition">
+                <b>Figma</b> - онлайн-сервис для разработки интерфейсов и прототипирования с возможностью организации совместной работы в режиме реального времени.
+            </div>
+
+            <div class = "title_block">
+                Чему вы научитесь
+            </div>
+            <div class = "what_you_will_learn">
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 1</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 2</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 3</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 4</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 5</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 6</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+
+            <div class = "title_block">
+                Содержание курса
+            </div>
+            <div class = "course_plan">
+                <div class = "course_plan_topline">
+                    <div class = "course_plan_title">
+                        Вас ждут нескучная теория, отработка знаний на практике и крутые проекты, чтобы даже новичок в Figma мог собрать впечатляющее портфолио
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">10</div>
+                        <div>месяцев<br />обучения</div>
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">82</div>
+                        <div>практические<br />задачи</div>
+                    </div>
+                </div>
+
+                <div class = "course_plan_item course_plan_item_first">
+                    <input type = "checkbox" id = "chb76">
+                    <label for = "chb76">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">1.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb77">
+                    <label for = "chb77">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">2.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb78">
+                    <label for = "chb78">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">3.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb79">
+                    <label for = "chb79">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">4.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb80">
+                    <label for = "chb80">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">5.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+            <div class = "taking">
+                <div class = "taking_btn">Записаться</div>
+            </div>
+        </div>
+
+        <div class = "course_content" id = "firebird_content">
+            <div class = "course_definition">
+                <b>Мультстудия "Жар-Птица"</b> - что-то непонятное.
+            </div>
+
+            <div class = "title_block">
+                Чему вы научитесь
+            </div>
+            <div class = "what_you_will_learn">
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 1</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 2</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 3</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 4</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 5</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 6</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+
+            <div class = "title_block">
+                Содержание курса
+            </div>
+            <div class = "course_plan">
+                <div class = "course_plan_topline">
+                    <div class = "course_plan_title">
+                        Вас ждут нескучная теория, отработка знаний на практике и крутые проекты, чтобы даже новичок в Мультстудия "Жар-Птица" мог собрать впечатляющее портфолио
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">10</div>
+                        <div>месяцев<br />обучения</div>
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">82</div>
+                        <div>практические<br />задачи</div>
+                    </div>
+                </div>
+
+                <div class = "course_plan_item course_plan_item_first">
+                    <input type = "checkbox" id = "chb81">
+                    <label for = "chb81">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">1.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb82">
+                    <label for = "chb82">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">2.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb83">
+                    <label for = "chb83">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">3.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb84">
+                    <label for = "chb84">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">4.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb85">
+                    <label for = "chb85">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">5.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+            <div class = "taking">
+                <div class = "taking_btn">Записаться</div>
+            </div>
+        </div>
+
+        <div class = "course_content" id = "photoshop_content">
+            <div class = "course_definition">
+                <b>Adobe Photoshop</b> - многофункциональный растровый графический редактор, разрабатываемый и распространяемый компанией Adobe Systems. В основном работает с растровыми изображениями, однако имеет некоторые векторные инструменты. Продукт является лидером рынка в области коммерческих средств редактирования растровых изображений и наиболее известной программой разработчика.
+            </div>
+
+            <div class = "title_block">
+                Чему вы научитесь
+            </div>
+            <div class = "what_you_will_learn">
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 1</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 2</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 3</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 4</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 5</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 6</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+
+            <div class = "title_block">
+                Содержание курса
+            </div>
+            <div class = "course_plan">
+                <div class = "course_plan_topline">
+                    <div class = "course_plan_title">
+                        Вас ждут нескучная теория, отработка знаний на практике и крутые проекты, чтобы даже новичок в Photoshop мог собрать впечатляющее портфолио
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">10</div>
+                        <div>месяцев<br />обучения</div>
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">82</div>
+                        <div>практические<br />задачи</div>
+                    </div>
+                </div>
+
+                <div class = "course_plan_item course_plan_item_first">
+                    <input type = "checkbox" id = "chb86">
+                    <label for = "chb86">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">1.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb87">
+                    <label for = "chb87">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">2.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb88">
+                    <label for = "chb88">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">3.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb89">
+                    <label for = "chb89">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">4.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb90">
+                    <label for = "chb90">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">5.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+            <div class = "taking">
+                <div class = "taking_btn">Записаться</div>
+            </div>
+        </div>
+
+        <div class = "course_content" id = "paint_content">
+            <div class = "course_definition">
+                <b>Microsoft Paint</b> - многофункциональный, но в то же время довольно простой в использовании растровый графический редактор компании Microsoft, входящий в состав всех операционных систем Windows, начиная с первых версий.
+            </div>
+
+            <div class = "title_block">
+                Чему вы научитесь
+            </div>
+            <div class = "what_you_will_learn">
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 1</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 2</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 3</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 4</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+                <div class = "wywl_left_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 5</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class = "wywl_right_side">
+                    <div class = "check_mark"></div>
+                    <div class = "wywl_title">Подзаголовок 6</div>
+                    <div class = "wywl_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+
+            <div class = "title_block">
+                Содержание курса
+            </div>
+            <div class = "course_plan">
+                <div class = "course_plan_topline">
+                    <div class = "course_plan_title">
+                        Вас ждут нескучная теория, отработка знаний на практике и крутые проекты, чтобы даже новичок в Paint мог собрать впечатляющее портфолио
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">10</div>
+                        <div>месяцев<br />обучения</div>
+                    </div>
+                    <div class = "course_plan_period">
+                        <div class = "course_plan_period_num">82</div>
+                        <div>практические<br />задачи</div>
+                    </div>
+                </div>
+
+                <div class = "course_plan_item course_plan_item_first">
+                    <input type = "checkbox" id = "chb91">
+                    <label for = "chb91">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">1.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb92">
+                    <label for = "chb92">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">2.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb93">
+                    <label for = "chb93">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">3.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb94">
+                    <label for = "chb94">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">4.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+
+                <div class = "course_plan_item">
+                    <input type = "checkbox" id = "chb95">
+                    <label for = "chb95">
+                        <div class = "course_plan_item_topline">
+                            <div class = "course_plan_item_title">5.   Раздел</div>
+                            <div class = "course_plan_item_btn">+</div>
+                        </div>
+                    </label>
+                    <div class = "course_plan_item_content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </div>
+                </div>
+            </div>
+            <div class = "taking">
+                <div class = "taking_btn">Записаться</div>
+            </div>
+        </div>
+
+        <!-- Arrow up -->
+        <a href = "#" class = "arrow_up" id = "courses_arrow_up">
+            <i class = "fa fa-angle-up"></i>
+        </a>
+        <div id = "courses_overcap" class = "overcap"></div>
+    </main>
+
+    <footer id = "courses_footer">
+        <div id = "footer_left_top">
+            <a href = "#">Оферта</a>
+            <a href = "#">Оплата</a>
+            <a href = "#">Правила пользования платформой</a>
+            <a href = "#">Политика конфиденциальности</a>
+        </div>
+        <div id = "footer_right_top">
+            Образовательные услуги оказываются МБУ ДО «Центр внешкольной работы» на основании Лицензии № Л111-01111-11/00111111 от 11 января 2023 года.
+        </div>
+        <div id = "footer_left_bottom">
+            <div>8 (999) 999-99-99</div>
+            Контактный центр
+        </div>
+        <div id = "footer_right_bottom">
+            Образовательные услуги оказываются в соответствии с Федеральным законом от 04.05.2011 № 99-ФЗ «О лицензировании отдельных видов деятельности».
+        </div>
+    </footer>
+</body>
+
+</html>
